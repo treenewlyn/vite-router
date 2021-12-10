@@ -9,6 +9,12 @@
     "prepublishOnly": "npm run build",
     "release": "bumpp --commit --tag --push"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/treenewlyn/vite-router"
+  },
+  "homepage": "https://github.com/treenewlyn/vite-router",
+  "bugs": "https://github.com/treenewlyn/vite-router/issues",
   "author": "treenew",
   "license": "MIT",
   "files": [
