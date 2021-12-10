@@ -1,8 +1,10 @@
 {
   "name": "vite-router",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "The vite automatic route generation.",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
   "scripts": {
     "dev": "npm run build -- --watch --ignore-watch examples",
     "build": "tsup src/index.ts --format esm,cjs --dts",
